@@ -1,5 +1,5 @@
 ## WinDBG Plugin for Windows Kernel Exploitation.
-## By Juan Sacco <<jsacco@exploitpack.com> https://exploitpack.com
+## By Juan Sacco <<support@exploitpack.com> https://exploitpack.com
 
 This WinDBG Plugin traps and log the IOCTLs on real-time from the target driver/module, sets a breakpoint into IRP_MJ_DEVICE_CONTROL to break or pass, and once you trigger the IOCTL from the user-mode targeted app, it shows you the corresponding values of the IOCTL, method, access type, buffer in/out and the content of the buffer among other things.
 How to use:
